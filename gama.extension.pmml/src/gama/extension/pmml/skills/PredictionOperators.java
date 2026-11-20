@@ -7,6 +7,8 @@ import java.io.IOException;
 
 import javax.xml.parsers.ParserConfigurationException;
 
+import jakarta.xml.bind.JAXBException;
+
 import org.jpmml.evaluator.Evaluator;
 import org.jpmml.evaluator.EvaluatorUtil;
 import org.jpmml.evaluator.LoadingModelEvaluatorBuilder;
@@ -22,7 +24,6 @@ import gama.api.runtime.scope.IScope;
 import gama.api.types.map.GamaMapFactory;
 import gama.api.types.map.IMap;
 import gama.extension.pmml.types.PMMLEvaluator;
-import jakarta.xml.bind.JAXBException;
 
 public class PredictionOperators {
 	

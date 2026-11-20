@@ -11,5 +11,12 @@ Automatic-Module-Name: gama.extension.pmml
 Bundle-ClassPath: .,
  lib/pmml-evaluator-1.7.7.jar,
  lib/pmml-evaluator-metro-1.7.7.jar,
- lib/pmml-model-1.7.7.jar
+ lib/pmml-model-1.7.7.jar,
+ lib/jaxb 4.0.7/angus-activation-2.0.3.jar,
+ lib/jaxb 4.0.7/istack-commons-runtime-4.1.2.jar,
+ lib/jaxb 4.0.7/jakarta.activation-api-2.1.4.jar,
+ lib/jaxb 4.0.7/jakarta.xml.bind-api-4.0.5.jar,
+ lib/jaxb 4.0.7/jaxb-core-4.0.7.jar,
+ lib/jaxb 4.0.7/jaxb-runtime-4.0.7.jar,
+ lib/jaxb 4.0.7/txw2-4.0.7.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-25
